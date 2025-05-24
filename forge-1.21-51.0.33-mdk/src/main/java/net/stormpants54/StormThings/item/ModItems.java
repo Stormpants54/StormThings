@@ -14,6 +14,8 @@ public class ModItems {
     //Registered Items
     public static final RegistryObject<Item> AMETHYST_BLADE  = ITEMS.register("amethyst_blade",
             () -> new Item((new Item.Properties())));
+    public static final RegistryObject<Item> AMETHYST_UPGRADE_TEMPLATE  = ITEMS.register("amethyst_upgrade_template",
+            () -> new Item((new Item.Properties())));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

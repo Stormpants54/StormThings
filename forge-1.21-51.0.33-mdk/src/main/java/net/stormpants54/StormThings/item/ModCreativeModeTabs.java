@@ -19,6 +19,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.stormsthings.storms_things_items_tab"))
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.AMETHYST_BLADE.get());
+                        output.accept(ModItems.AMETHYST_UPGRADE_TEMPLATE.get());
                     })
                     .build());
 
